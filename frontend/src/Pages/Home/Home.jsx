@@ -1,11 +1,4 @@
-import {
-  Button,
-  Center,
-  Container,
-  Stack,
-  Text,
-  Title,
-} from "@mantine/core";
+import { Button, Center, Container, Stack, Text, Title } from "@mantine/core";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { getIsLoggedIn } from "../../redux/slices/User";
@@ -53,21 +46,19 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Your App Name
+            BZ WEB BOOT CAMP IKKADA
           </Title>
 
           <Text
             size="xl"
-fw={700}
+            fw={700}
             style={{
               color: "#f1f1f1",
               marginTop: "0.8rem",
               marginBottom: "2rem",
               fontWeight: 400,
             }}
-          >
-            
-          </Text>
+          ></Text>
 
           <Button
             size="md"
@@ -78,7 +69,7 @@ fw={700}
               isLoggedIn ? navigate("/url/shortener") : navigate("/login")
             }
           >
-            Get Started
+            Damunte touch chey
           </Button>
         </div>
       </Container>
