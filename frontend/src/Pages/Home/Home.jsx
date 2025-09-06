@@ -69,7 +69,7 @@ const Home = () => {
               isLoggedIn ? navigate("/url/shortener") : navigate("/login")
             }
           >
-            Damunte touch chey
+            By Rohit Varma
           </Button>
         </div>
       </Container>
